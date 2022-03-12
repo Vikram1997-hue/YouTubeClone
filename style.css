@@ -126,6 +126,12 @@ li:hover {
     margin-left: 4rem;
 }
 
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
 .actualAdButton {
     color:rgb(0, 119, 255);
     background-color: white;
@@ -133,6 +139,11 @@ li:hover {
     font-weight: bold;
     cursor:pointer;
     padding: 10px;
+
+    
+    position: absolute;
+    bottom: 15.1rem;
+    left: 1rem;
 }
 
 .above {
@@ -142,17 +153,6 @@ li:hover {
 
 .below {
     margin-top: -5px;
-}
-
-.container {
-    position: relative;
-    text-align: center;
-}
-
-.bottom-left {
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
 }
 
 #mic {
